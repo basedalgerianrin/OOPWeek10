@@ -34,9 +34,23 @@ public class Preferred extends Customer {
 
     @Override
     public String toString() {
-        return "loyalty_points=" + loyalty_points +
+        return  super.toString() +
+                "loyalty_points=" + loyalty_points +
                 "\ndiscount_level=" + discount_level ;
     }
+
+    private void updateDiscountLevel() {
+        if (loyalty_points < 500) {discount_level = discount_level = 0;}
+        else if (loyalty_points <= 500 && loyalty_points <= 900) {discount_level = discount_level = 0.05;}
+        else if (loyalty_points <= 1000 && loyalty_points <= 1499) {discount_level = discount_level = 0.06;}
+        else if (loyalty_points <= 1500 && loyalty_points <= 1999) {discount_level = discount_level = 0.07;}
+        else if (loyalty_points >= 2000) {discount_level = discount_level = 0.10;}
+    }
+    public void addLoyaltyPoints(int points) {
+        this.loyalty_points += points;
+        updateDiscountLevel();
+    }
+
 
 
 }
