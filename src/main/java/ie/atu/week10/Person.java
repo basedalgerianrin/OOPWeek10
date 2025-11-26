@@ -46,7 +46,7 @@ public class Person {
     @Override
     public String toString() {
         return "name='" + name + '\'' +
-                ",\naddress='" + address + '\'' +
-                ",\nphoneNumber='" + phoneNumber + '\'';
+                ",\naddress ='" + address + '\'' +
+                ",\nphoneNumber ='" + phoneNumber + '\'';
     }
 }

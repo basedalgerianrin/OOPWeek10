@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f005ee76-35d6-4dce-bcef-029fc6fe80b1" name="Changes" comment="setup commit and person class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Customer.java" afterDir="false" />
+    <list default="true" id="f005ee76-35d6-4dce-bcef-029fc6fe80b1" name="Changes" comment="Customer class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Preferred.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week10/Person.java" afterDir="false" />
     </list>
@@ -47,7 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -96,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764174820763</updated>
-      <workItem from="1764174821732" duration="2206000" />
+      <workItem from="1764174821732" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="setup commit and person class">
       <option name="closed" value="true" />
@@ -106,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764175661200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Customer class">
+      <option name="closed" value="true" />
+      <created>1764177044058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764177044058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup commit and person class" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup commit and person class" />
+    <MESSAGE value="Customer class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

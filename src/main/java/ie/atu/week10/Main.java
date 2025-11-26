@@ -11,6 +11,8 @@ public class Main {
 
         System.out.println(firstperson.toString());
         Customer customer = new Customer();
+        Customer customertwo = new Customer("Aubrey", "Toronto", "6699", 12, true);
+        System.out.println(customertwo.toString());
 
 
     }
